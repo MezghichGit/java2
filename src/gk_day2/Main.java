@@ -12,15 +12,16 @@ public class Main {
 		
 		String nom = sc.nextLine();
 		
+		System.out.println("Quel est votre age?");
 		
+		int age = sc.nextInt();
+		
+		//pour consommser le caractère d'échappement après l'appui sur le bouton Entré
+		sc.nextLine();
 		
 		System.out.println("Quel votre lang. prog. préféré?");
 		
 		String lan = sc.nextLine();
-		
-		System.out.println("Quel est votre age?");
-		
-		int age = sc.nextInt();
 		
 		System.out.println("Vous êtes : "+ nom + " Vous avez : "+ age +" ans, Lang. préféré : "+lan);
 
